@@ -1,33 +1,34 @@
-# Changelog
-All notable changes to this project will be documented in this file.
+# Features
 
-### Beta Release 
+#### Beta Release | 2022-05-15
 
-#### 0.0.9.0 - 2022-05-15
-### Features
-- Create project hubs and projects
-- Machine Learning powered Issue recommendations
-- Create teams and team task boards
-- Add Multiple project members using a spreadsheet
-- Compact view mode
-- Manage project settings
-- Manage user tags
-- Issue grouping
-- Issue monitoring
-- Auto tagging of clashes/issues
-- Meeting mode
-- Create custom queries
-- Version navigation
-- File uploads
+#### `0.0.9.0`
+#
+#### All
++ Create project hubs and projects
++ Machine Learning powered Issue recommendations
++ Create teams and team task boards
++ Add Multiple project members using a spreadsheet
++ Compact view mode
++ Manage project settings
++ Manage user tags
++ Issue grouping
++ Issue monitoring
++ Auto tagging of clashes/issues
++ Meeting mode
++ Create custom queries
++ Version navigation
++ File uploads
 
 
 ### Revit Features
-- Quick New Issue
-- Filter issues list based on selected Revit elements
-- Auto tagging of clashes/issues
-- Meeting mode
-- Create custom queries
-- Version navigation
++ Quick New Issue
++ Filter issues list based on selected Revit elements
++ Auto tagging of clashes/issues
++ Meeting mode
++ Create custom queries
++ Version navigation
 
 ### Navisworks Features
 - Publish, Sync and Update clashes Autodesk Navisworks IssueLab
+
