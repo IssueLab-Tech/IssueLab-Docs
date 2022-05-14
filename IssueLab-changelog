@@ -1,10 +1,9 @@
-# Features
+## Features
 
 #### Beta Release | 2022-05-15
 
 #### `0.0.9.0`
 #
-#### All
 + Create project hubs and projects
 + Machine Learning powered Issue recommendations
 + Create teams and team task boards
@@ -18,21 +17,7 @@
 + Meeting mode
 + Create custom queries
 + Version navigation
-+ File uploads
-+ Create project hubs and projects
-+ Machine Learning powered Issue recommendations
-+ Create teams and team task boards
-+ Add Multiple project members using a spreadsheet
-+ Compact view mode
-+ Manage project settings
-+ Manage user tags
-+ Issue grouping
-+ Issue monitoring
-+ Auto tagging of clashes/issues
-+ Meeting mode
-+ Create custom queries
-+ Version navigation
-+ File uploads
++ Attach files to Issues
 
 ### Revit Features
 + Quick New Issue
