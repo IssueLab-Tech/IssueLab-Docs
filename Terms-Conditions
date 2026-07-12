@@ -1,5 +1,7 @@
-*Effective: January 01, 2022*  
-*Last updated: October 06, 2023*
+*Effective: January 01, 2022*<br>
+*Last updated: [DATE]*
+
+> **Draft revision pending owner/legal review.** This version adds factual sections describing AI-assisted ("Wise") features and corrects the Termination section to reflect self-serve Account deletion. It has not yet been reviewed by counsel or approved by IssueLab's ownership, and the "Last updated" date above is a placeholder until this revision is approved and published.
 
 Please read these terms and conditions carefully before using Our Service.
 
@@ -101,6 +103,10 @@ The Service is protected by copyright, trademark, and other laws of both the Cou
 
 Our trademarks and trade dress may not be used in connection with any product or service without the prior written consent of the Company.
 
+### AI-Assisted Features ("Wise")
+
+The Service includes AI-assisted features, branded "Wise" (for example, automatic clash naming, an AI chat assistant, and AI-generated summaries), which are provided using a third-party AI service provider. Data You submit to these features — including clash data, chat prompts, and any images You submit — is processed as described in Our Privacy Policy. AI-generated output is provided to assist You; it may be incomplete or inaccurate, and You remain responsible for reviewing and verifying any AI-assisted suggestion before relying on it.
+
 ### Your Feedback to Us
 
 You assign all rights, title, and interest in any Feedback You provide the Company. If for any reason such assignment is ineffective, You agree to grant the Company a non-exclusive, perpetual, irrevocable, royalty-free, worldwide right and license to use, reproduce, disclose, sublicense, distribute, modify, and exploit such Feedback without restriction.
@@ -117,7 +123,7 @@ We strongly advise You to read the terms and conditions and privacy policies of 
 
 We may terminate or suspend Your Account immediately, without prior notice or liability, for any reason whatsoever, including without limitation if You breach these Terms and Conditions.
 
-Upon termination, Your right to use the Service will cease immediately. If You wish to terminate Your Account, You may simply discontinue using the Service.
+Upon termination, Your right to use the Service will cease immediately. If You wish to terminate Your Account, You can request Account deletion from within the product. Your Account is deactivated immediately, and Your data is then permanently and irreversibly deleted after the 30-day recovery window described in Our Privacy Policy. Simply discontinuing use of the Service does not, by itself, delete Your data.
 
 ### Limitation of Liability
 

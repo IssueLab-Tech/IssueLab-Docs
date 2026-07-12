@@ -1,5 +1,7 @@
-*Effective: January 01, 2022*  
-*Last updated: November 02, 2025*
+*Effective: January 01, 2022*<br>
+*Last updated: [DATE]*
+
+> **Draft revision pending owner/legal review.** This version updates the factual sections below — Service Providers, cookies/analytics, AI ("Wise") data handling, account deletion, data export, retention windows, and data residency — to match the current Service. It has not yet been reviewed by counsel or approved by IssueLab's ownership, and the "Last updated" date above is a placeholder until this revision is approved and published.
 
 This Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your information when You use the Service and tells You about Your privacy rights and how the law protects You. We use Your Personal data to provide and improve the Service. By using the Service, You agree to the collection and use of information in accordance with this Privacy Policy.
 
@@ -78,7 +80,12 @@ We use both Session and Persistent Cookies for the purposes set out below:
   - *Administered by*: Us
   - *Purpose*: These Cookies allow us to remember choices You make when You use the Website, such as remembering your login details or language preference. The purpose of these Cookies is to provide You with a more personal experience and to avoid You having to re-enter your preferences every time You use the Website.
 
-For more information about the cookies we use and your choices regarding cookies, please visit our [Cookies Policy](link-to-cookies-policy) or the Cookies section of our [Privacy Policy](link-to-privacy-policy).
+- **Analytics Cookies**
+  - *Type*: Persistent Cookies
+  - *Administered by*: Third parties (Google Analytics, Microsoft Clarity) — the only two analytics tools We use
+  - *Purpose*: These Cookies collect website usage data (such as page views and interaction data) so We can understand how the public marketing site is used. As part of this privacy update, We are rolling out a cookie-consent banner so that Google Analytics and Microsoft Clarity only load after You give Your consent; this consent gating is rolling out alongside this policy update and was not yet live in production as of this draft. Once it is live, You will be asked to accept or decline analytics cookies when You first visit the site.
+
+For more information about the cookies we use and your choices regarding cookies, please visit our Cookie Policy (once published) or the Cookies section of our [Privacy Policy](link-to-privacy-policy).
 
 ## Use of Your Personal Data
 
@@ -95,12 +102,38 @@ The Company may use Personal Data for the following purposes:
 
 We may share Your personal information in the following situations:
 
-- **With Service Providers**: We may share Your personal information with Service Providers to monitor and analyze the use of our Service, to contact You.
+- **With Service Providers**: We may share Your personal information with Service Providers to monitor and analyze the use of our Service, to contact You, and to provide the AI features described below. See "Service Providers We Use" for the specific list of providers We use today.
 - **For business transfers**: We may share or transfer Your personal information in connection with, or during negotiations of, any merger, sale of Company assets, financing, or acquisition of all or a portion of Our business to another company.
 - **With Affiliates**: We may share Your information with Our affiliates, in which case we will require those affiliates to honor this Privacy Policy. Affiliates include Our parent company and any other subsidiaries, joint venture partners or other companies that We control or that are under common control with Us.
 - **With business partners**: We may share Your information with Our business partners to offer You certain products, services or promotions.
 - **With other users**: when You share personal information or otherwise interact in the public areas with other users, such information may be viewed by all users and may be publicly distributed outside.
 - **With Your consent**: We may disclose Your personal information for any other purpose with Your consent.
+
+### Service Providers We Use
+
+The Service Providers below process Personal Data on Our behalf so that We can provide the Service. This list reflects the third parties We actually use today. If We add, remove, or replace a Service Provider in a way that materially changes how Your Personal Data is processed, We will notify You before the change takes effect.
+
+| Service Provider | Purpose | Location |
+|---|---|---|
+| Microsoft Azure OpenAI | Powers Our AI features — clash naming, the "Wise" chat assistant, and AI summaries | Sweden (EU) |
+| Azure Communication Services | Sends transactional and inbound email (password reset, notifications, support replies) — the only email provider We use | Microsoft Azure (region being confirmed) |
+| Azure Cosmos DB | Our primary application database | Microsoft Azure (region being confirmed) |
+| Azure Storage | Stores images, exported files, and background job data | Microsoft Azure (region being confirmed) |
+| Stripe | Processes billing and payments for most subscriptions; We do not store Your card number | United States |
+| PayPal | Processes billing for a legacy subscription path for customers who purchased via the Autodesk App Store | United States |
+| Autodesk | Verifies plugin feature entitlements linked to Your Autodesk account | United States |
+| Google Analytics and Microsoft Clarity | Provide website usage analytics on Our public marketing site — the only two analytics tools We use | United States |
+| Hetzner | Hosts the Service (the servers running Our application) | Germany (EU) |
+
+See the "International Data Transfers (UK GDPR)" section below for more on where Your data is processed.
+
+### AI Features ("Wise")
+
+The Service includes AI-assisted features, branded "Wise" — for example automatic clash naming, an AI chat assistant, and AI-generated summaries. When You use these features:
+
+- Clash data (such as titles and descriptions), Your chat prompts, and any images You submit (for example, about a viewpoint) are sent to Our AI Service Provider, Microsoft Azure OpenAI, for processing. This processing takes place in Sweden (EU).
+- Wise chat history (Your prompts, the AI's responses, and related conversation context) is retained for 12 months from Your last activity in that conversation. You can delete any conversation sooner from within the product.
+- We separately record AI usage metering data — the number of tokens used and an estimated cost — so that We and You can track AI usage against Your plan. This metering data does not include the content of Your prompts or the AI's responses.
 
 ### Legal Basis for Processing Personal Data (UK GDPR)
 
@@ -123,6 +156,8 @@ Under UK data protection laws, You have the following rights:
 - **Right to Data Portability**: You have the right to request that We transfer the data that We have collected to another organization, or directly to You, under certain conditions.
 - **Right to Withdraw Consent**: Where We rely on Your consent to process Your Personal Data, You have the right to withdraw that consent at any time. This includes the right to opt out of email tracking and marketing communications.
 
+**Self-service export.** You can export a machine-readable copy of the Personal Data We hold about You and Your Account's content directly from Your profile in the product — covering account data, clash sets, clashes, matrices, conversations, sessions and activity. This is rate-limited to protect against abuse. Using this tool is the fastest way to exercise Your Right of Access or Right to Data Portability; You do not need to contact Us first, though You are welcome to.
+
 To exercise any of these rights, please contact us at tech@clashwise.ai. We will respond to Your request within one month. Please note that we may need to verify Your identity before processing Your request.
 
 ### Retention of Your Personal Data
@@ -130,6 +165,25 @@ To exercise any of these rights, please contact us at tech@clashwise.ai. We will
 The Company will retain Your Personal Data only for as long as is necessary for the purposes set out in this Privacy Policy. We will retain and use Your Personal Data to the extent necessary to comply with our legal obligations (for example, if we are required to retain your data to comply with applicable laws), resolve disputes, and enforce our legal agreements and policies.
 
 The Company will also retain Usage Data for internal analysis purposes. Usage Data is generally retained for a shorter period of time, except when this data is used to strengthen the security or to improve the functionality of Our Service, or We are legally obligated to retain this data for longer time periods.
+
+**Specific retention windows.** Where We can commit to a specific period, it is:
+
+- **Account, project and clash data**: retained for the life of Your Account. If You delete Your Account, see "Account Deletion" below.
+- **Wise AI chat history**: 12 months from Your last activity in that conversation (You can delete a conversation sooner from within the product).
+- **AI usage metering** (token counts and estimated cost — no prompt or output content): raw events are kept for 400 days; aggregate monthly totals are not time-limited.
+- **Admin audit log** (logins, impersonation, and permission/billing changes): 7 years, retained on legitimate-interest and legal grounds — including after Account deletion, so that a record of what happened cannot be erased by closing an Account.
+- **Diagnostic error logs**: 90 days.
+- **User-activity diagnostics** (which include IP address and user agent): 180 days.
+
+### Account Deletion
+
+You can request deletion of Your Account at any time from within the product. When You do:
+
+- Your Account is **deactivated immediately** — You are logged out and the Account stops working.
+- Your data is kept for a **30-day recovery window** so an accidental or malicious deletion request can be reversed.
+- After that window, a background process **permanently and irreversibly purges** Your Account and everything it owns — clash sets and clashes, element properties, matrices, filters, groups, coordination sessions, conversations, API credentials, email and consent records, activity, and subscriptions — along with associated files (viewpoint images, 3D extracts, exports).
+
+Two things are deliberately kept even after Your Account is purged: the admin audit log (see above) and aggregate AI-usage totals that no longer identify You.
 
 ### Transfer of Your Personal Data
 
@@ -148,6 +202,8 @@ If We transfer Your Personal Data outside of the United Kingdom, We will ensure 
 - Transferring data to organizations that are part of Privacy Shield or other approved certification schemes.
 
 Where We use Service Providers that process Personal Data outside of the UK, We ensure that appropriate safeguards are in place before any transfer occurs.
+
+**Where Your data is processed today.** Our AI processing (Azure OpenAI) takes place in Sweden (EU), and the Service itself is hosted in Germany (EU, via Hetzner). The regions of Our primary database (Azure Cosmos DB) and file storage (Azure Storage) are still being confirmed and consolidated toward the EU; until that confirmation is complete, We do not represent that all Personal Data is EU-resident. We will update this Privacy Policy once that confirmation is complete.
 
 ### Disclosure of Your Personal Data
 
