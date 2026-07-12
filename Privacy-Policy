@@ -203,7 +203,7 @@ If We transfer Your Personal Data outside of the United Kingdom, We will ensure 
 
 Where We use Service Providers that process Personal Data outside of the UK, We ensure that appropriate safeguards are in place before any transfer occurs.
 
-**Where Your data is processed today.** Our AI processing (Azure OpenAI) takes place in Sweden (EU), and the Service itself is hosted in Germany (EU, via Hetzner). The regions of Our primary database (Azure Cosmos DB) and file storage (Azure Storage) are still being confirmed and consolidated toward the EU; until that confirmation is complete, We do not represent that all Personal Data is EU-resident. We will update this Privacy Policy once that confirmation is complete.
+**Where Your data is processed today.** Our AI processing (Azure OpenAI) takes place in Sweden (EU), and the Service itself is hosted in Germany (EU, via Hetzner). The regions of Our primary database (Azure Cosmos DB), file storage (Azure Storage), and email service (Azure Communication Services) are still being confirmed and consolidated toward the EU; until that confirmation is complete, We do not represent that all Personal Data is EU-resident. We will update this Privacy Policy once that confirmation is complete.
 
 ### Disclosure of Your Personal Data
 
