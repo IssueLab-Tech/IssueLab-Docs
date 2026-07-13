@@ -83,9 +83,11 @@ We use both Session and Persistent Cookies for the purposes set out below:
 - **Analytics Cookies**
   - *Type*: Persistent Cookies
   - *Administered by*: Third parties (Google Analytics, Microsoft Clarity) — the only two analytics tools We use
-  - *Purpose*: These Cookies collect website usage data (such as page views and interaction data) so We can understand how the public marketing site is used. As part of this privacy update, We are rolling out a cookie-consent banner so that Google Analytics and Microsoft Clarity only load after You give Your consent; this consent gating is rolling out alongside this policy update and was not yet live in production as of this draft. Once it is live, You will be asked to accept or decline analytics cookies when You first visit the site.
+  - *Purpose*: These Cookies collect website usage data (such as page views and interaction data) so We can understand how the public marketing site is used. **They do not load until You accept analytics cookies.** When You first visit the site You are asked to accept or decline; if You decline, or simply ignore the banner, Google Analytics and Microsoft Clarity are never loaded. You can change Your choice at any time from the Cookie Policy page.
 
-For more information about the cookies we use and your choices regarding cookies, please visit our Cookie Policy (once published) or the Cookies section of our [Privacy Policy](link-to-privacy-policy).
+Where analytics is enabled by Your consent, it runs across Our website, including pages inside the signed-in product; We record the page address visited and interaction data.
+
+For more information about the cookies We use and Your choices regarding them, please see Our [Cookie Policy](https://clashwise.ai/cookie-policy) or the Cookies section of this Privacy Policy.
 
 ## Use of Your Personal Data
 
@@ -105,24 +107,23 @@ We may share Your personal information in the following situations:
 - **With Service Providers**: We may share Your personal information with Service Providers to monitor and analyze the use of our Service, to contact You, and to provide the AI features described below. See "Service Providers We Use" for the specific list of providers We use today.
 - **For business transfers**: We may share or transfer Your personal information in connection with, or during negotiations of, any merger, sale of Company assets, financing, or acquisition of all or a portion of Our business to another company.
 - **With Affiliates**: We may share Your information with Our affiliates, in which case we will require those affiliates to honor this Privacy Policy. Affiliates include Our parent company and any other subsidiaries, joint venture partners or other companies that We control or that are under common control with Us.
-- **With business partners**: We may share Your information with Our business partners to offer You certain products, services or promotions.
-- **With other users**: when You share personal information or otherwise interact in the public areas with other users, such information may be viewed by all users and may be publicly distributed outside.
+- **With people You share content with**: Where You share a clash set using a share link, the content of that clash set — including any personal information contained within it — is visible to anyone who opens the link and enters the password, if You set one. You control whether to create a share link and can revoke it.
 - **With Your consent**: We may disclose Your personal information for any other purpose with Your consent.
 
 ### Service Providers We Use
 
-The Service Providers below process Personal Data on Our behalf so that We can provide the Service. This list reflects the third parties We actually use today. If We add, remove, or replace a Service Provider in a way that materially changes how Your Personal Data is processed, We will notify You before the change takes effect.
+The Service Providers below process Personal Data on Our behalf so that We can provide the Service. This list reflects the third parties We actually use today. If We add, remove, or replace a Service Provider in a way that materially changes how Your Personal Data is processed, We will publish the change on Our [Subprocessors page](https://clashwise.ai/subprocessors) and email the account owner of each affected organisation, in each case before the change takes effect.
 
 | Service Provider | Purpose | Location |
 |---|---|---|
 | Microsoft Azure OpenAI | Powers Our AI features — clash naming, the "Wise" chat assistant, and AI summaries | Sweden (EU) |
-| Azure Communication Services | Sends transactional and inbound email (password reset, notifications, support replies) — the only email provider We use | Microsoft Azure (region being confirmed) |
-| Azure Cosmos DB | Our primary application database | Microsoft Azure (region being confirmed) |
-| Azure Storage | Stores images, exported files, and background job data | Microsoft Azure (region being confirmed) |
+| Azure Communication Services | Sends transactional and inbound email (password reset, notifications, support replies) — the only email provider We use | United Kingdom |
+| Azure Cosmos DB | Our primary application database | United Kingdom |
+| Azure Storage | Stores images, exported files, and background job data | United Kingdom |
 | Stripe | Processes billing and payments for most subscriptions; We do not store Your card number | United States |
 | PayPal | Processes billing for a legacy subscription path for customers who purchased via the Autodesk App Store | United States |
 | Autodesk | Verifies plugin feature entitlements linked to Your Autodesk account | United States |
-| Google Analytics and Microsoft Clarity | Provide website usage analytics on Our public marketing site — the only two analytics tools We use | United States |
+| Google Analytics and Microsoft Clarity | Provide website usage analytics — the only two analytics tools We use. Neither loads unless You accept analytics cookies; where You do, they run across the website, including signed-in pages | United States |
 | Hetzner | Hosts the Service (the servers running Our application) | Germany (EU) |
 
 See the "International Data Transfers (UK GDPR)" section below for more on where Your data is processed.
@@ -134,6 +135,17 @@ The Service includes AI-assisted features, branded "Wise" — for example automa
 - Clash data (such as titles and descriptions), Your chat prompts, and any images You submit (for example, about a viewpoint) are sent to Our AI Service Provider, Microsoft Azure OpenAI, for processing. This processing takes place in Sweden (EU).
 - Wise chat history (Your prompts, the AI's responses, and related conversation context) is retained for 12 months from Your last activity in that conversation. You can delete any conversation sooner from within the product.
 - We separately record AI usage metering data — the number of tokens used and an estimated cost — so that We and You can track AI usage against Your plan. This metering data does not include the content of Your prompts or the AI's responses.
+
+### Our Role: Controller and Processor
+
+ClashWise is used by organisations to coordinate construction projects, so two different kinds of Personal Data flow through it, and Our legal role differs for each:
+
+- **We are the "controller"** of the data We hold about You as a user of the Service: Your account details (name, email), Your billing information, Your usage of the Service, and Our security and audit records. This Privacy Policy describes how We handle that data, and it is Us You contact about it.
+- **We are a "processor"** of the project content Your organisation puts into the Service — clash sets, clash data, coordination sessions, comments, attachments and the like. That content can contain Personal Data about other people (for example, the name or email of a person recorded as responsible for resolving a clash). Your organisation, as Our customer, is the **controller** of that content and decides why and how it is processed; We process it on that organisation's documented instructions.
+
+If You are an individual whose Personal Data appears inside a customer's project content and You want to exercise Your data protection rights over it, please contact that organisation. If You contact Us instead, We will help You reach the right controller and will assist that organisation in responding.
+
+Business customers who require a Data Processing Agreement (DPA) under Article 28 UK GDPR can request one from Us at support@clashwise.ai.
 
 ### Legal Basis for Processing Personal Data (UK GDPR)
 
@@ -158,7 +170,7 @@ Under UK data protection laws, You have the following rights:
 
 **Self-service export.** You can export a machine-readable copy of the Personal Data We hold about You and Your Account's content directly from Your profile in the product — covering account data, clash sets, clashes, matrices, conversations, sessions and activity. This is rate-limited to protect against abuse. Using this tool is the fastest way to exercise Your Right of Access or Right to Data Portability; You do not need to contact Us first, though You are welcome to.
 
-To exercise any of these rights, please contact us at tech@clashwise.ai. We will respond to Your request within one month. Please note that we may need to verify Your identity before processing Your request.
+To exercise any of these rights, please contact us at support@clashwise.ai. We will respond to Your request within one month. Please note that we may need to verify Your identity before processing Your request.
 
 ### Retention of Your Personal Data
 
@@ -203,7 +215,16 @@ If We transfer Your Personal Data outside of the United Kingdom, We will ensure 
 
 Where We use Service Providers that process Personal Data outside of the UK, We ensure that appropriate safeguards are in place before any transfer occurs.
 
-**Where Your data is processed today.** Our AI processing (Azure OpenAI) takes place in Sweden (EU), and the Service itself is hosted in Germany (EU, via Hetzner). The regions of Our primary database (Azure Cosmos DB), file storage (Azure Storage), and email service (Azure Communication Services) are still being confirmed and consolidated toward the EU; until that confirmation is complete, We do not represent that all Personal Data is EU-resident. We will update this Privacy Policy once that confirmation is complete.
+**Where Your data is processed today.**
+
+- **United Kingdom** — Our primary database (Azure Cosmos DB), file storage (Azure Storage), and email service (Azure Communication Services).
+- **Sweden (EU)** — Our AI processing (Azure OpenAI).
+- **Germany (EU)** — Application hosting (Hetzner).
+- **United States** — Billing (Stripe, PayPal), Autodesk entitlement checks, and analytics (Google, Microsoft), where You have consented to analytics.
+
+If You are in the EEA, note that the United Kingdom is outside the EEA. Transfers of Personal Data from the EEA to the UK are covered by the European Commission's **adequacy decision** for the UK, which recognises the UK as providing an equivalent level of data protection. For transfers to the United States, We rely on the transfer mechanisms described above.
+
+We do not claim that all Personal Data is EU-resident, and We will keep this section accurate if Our infrastructure changes.
 
 ### Disclosure of Your Personal Data
 
@@ -250,5 +271,5 @@ We would, however, appreciate the opportunity to address Your concerns before Yo
 
 ### Contact Us
 If you have any questions about this Privacy Policy, You can contact us:
-- **By email**: [tech@clashwise.ai](mailto:tech@clashwise.ai)
+- **By email**: [support@clashwise.ai](mailto:support@clashwise.ai)
 

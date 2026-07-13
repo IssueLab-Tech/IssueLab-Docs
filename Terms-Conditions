@@ -103,9 +103,15 @@ The Service is protected by copyright, trademark, and other laws of both the Cou
 
 Our trademarks and trade dress may not be used in connection with any product or service without the prior written consent of the Company.
 
+### What the Service Does (and Does Not Do)
+
+The Service manages, coordinates and analyses clash data that has been detected by, and published from, Autodesk Navisworks. **The Service does not itself perform clash detection.** Detection is performed by Navisworks; the Service helps You organise, prioritise, assign, report on and resolve the results.
+
 ### AI-Assisted Features ("Wise")
 
-The Service includes AI-assisted features, branded "Wise" (for example, automatic clash naming, an AI chat assistant, and AI-generated summaries), which are provided using a third-party AI service provider. Data You submit to these features — including clash data, chat prompts, and any images You submit — is processed as described in Our Privacy Policy. AI-generated output is provided to assist You; it may be incomplete or inaccurate, and You remain responsible for reviewing and verifying any AI-assisted suggestion before relying on it.
+The Service includes AI-assisted features, branded "Wise" (for example, automatic clash naming, an AI chat assistant, and AI-generated summaries), which are provided using a third-party AI service provider. Data You submit to these features — including clash data, chat prompts, and any images You submit — is processed as described in Our Privacy Policy.
+
+**AI output is a suggestion, not professional advice.** AI-generated content — including suggested clash titles, priorities, statuses, responsible parties and summaries — may be incomplete, inaccurate or unsuitable for Your project. It is not engineering, design, safety or professional advice, and it is not a substitute for the judgment of a qualified professional. You remain solely responsible for reviewing and verifying any AI-assisted suggestion before acting on it, and for any decision You take on a construction project.
 
 ### Your Feedback to Us
 
