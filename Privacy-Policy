@@ -82,7 +82,7 @@ We use both Session and Persistent Cookies for the purposes set out below:
   - *Administered by*: Third parties (Google Analytics, Microsoft Clarity) — the only two analytics tools We use
   - *Purpose*: These Cookies collect website usage data (such as page views and interaction data) so We can understand how the public marketing site is used. **They do not load until You accept analytics cookies.** When You first visit the site You are asked to accept or decline; if You decline, or simply ignore the banner, Google Analytics and Microsoft Clarity are never loaded. You can change Your choice at any time from the Cookie Policy page.
 
-Where analytics is enabled by Your consent, it runs across Our website, including pages inside the signed-in product; We record the page address visited and interaction data.
+Even where You accept analytics, it is used only on Our public pages (such as the home page, pricing, blog and documentation). **It is never used inside the signed-in product, in Our internal admin, or on a shared clash-set link** — the places where Your project data is on screen. Project content is therefore never sent to Our analytics providers.
 
 For more information about the cookies We use and Your choices regarding them, please see Our [Cookie Policy](https://clashwise.ai/cookie-policy) or the Cookies section of this Privacy Policy.
 
@@ -119,7 +119,7 @@ The Service Providers below process Personal Data on Our behalf so that We can p
 | Stripe | Processes billing and payments for most subscriptions; We do not store Your card number | United States |
 | PayPal | Processes billing for a legacy subscription path for customers who purchased via the Autodesk App Store | United States |
 | Autodesk | Verifies plugin feature entitlements linked to Your Autodesk account | United States |
-| Google Analytics and Microsoft Clarity | Provide website usage analytics — the only two analytics tools We use. Neither loads unless You accept analytics cookies; where You do, they run across the website, including signed-in pages | United States |
+| Google Analytics and Microsoft Clarity | Provide website usage analytics on Our public pages — the only two analytics tools We use. Neither loads unless You accept analytics cookies, and neither is ever loaded inside the signed-in product, Our admin, or a shared clash-set link | United States |
 | Hetzner | Hosts the Service (the servers running Our application) | Germany (EU) |
 
 See the "International Data Transfers (UK GDPR)" section below for more on where Your data is processed.
