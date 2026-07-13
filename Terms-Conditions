@@ -1,5 +1,5 @@
-*Effective: January 01, 2022*  
-*Last updated: October 06, 2023*
+*Effective: January 01, 2022*<br>
+*Last updated: July 13, 2026*
 
 Please read these terms and conditions carefully before using Our Service.
 
@@ -101,6 +101,16 @@ The Service is protected by copyright, trademark, and other laws of both the Cou
 
 Our trademarks and trade dress may not be used in connection with any product or service without the prior written consent of the Company.
 
+### What the Service Does (and Does Not Do)
+
+The Service manages, coordinates and analyses clash data that has been detected by, and published from, Autodesk Navisworks. **The Service does not itself perform clash detection.** Detection is performed by Navisworks; the Service helps You organise, prioritise, assign, report on and resolve the results.
+
+### AI-Assisted Features ("Wise")
+
+The Service includes AI-assisted features, branded "Wise" (for example, automatic clash naming, an AI chat assistant, and AI-generated summaries), which are provided using a third-party AI service provider. Data You submit to these features — including clash data, chat prompts, and any images You submit — is processed as described in Our Privacy Policy.
+
+**AI output is a suggestion, not professional advice.** AI-generated content — including suggested clash titles, priorities, statuses, responsible parties and summaries — may be incomplete, inaccurate or unsuitable for Your project. It is not engineering, design, safety or professional advice, and it is not a substitute for the judgment of a qualified professional. You remain solely responsible for reviewing and verifying any AI-assisted suggestion before acting on it, and for any decision You take on a construction project.
+
 ### Your Feedback to Us
 
 You assign all rights, title, and interest in any Feedback You provide the Company. If for any reason such assignment is ineffective, You agree to grant the Company a non-exclusive, perpetual, irrevocable, royalty-free, worldwide right and license to use, reproduce, disclose, sublicense, distribute, modify, and exploit such Feedback without restriction.
@@ -117,7 +127,7 @@ We strongly advise You to read the terms and conditions and privacy policies of 
 
 We may terminate or suspend Your Account immediately, without prior notice or liability, for any reason whatsoever, including without limitation if You breach these Terms and Conditions.
 
-Upon termination, Your right to use the Service will cease immediately. If You wish to terminate Your Account, You may simply discontinue using the Service.
+Upon termination, Your right to use the Service will cease immediately. If You wish to terminate Your Account, You can request Account deletion from within the product. Your Account is deactivated immediately, and Your data is then permanently and irreversibly deleted after the 30-day recovery window described in Our Privacy Policy. Simply discontinuing use of the Service does not, by itself, delete Your data.
 
 ### Limitation of Liability
 

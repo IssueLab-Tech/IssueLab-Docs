@@ -1,5 +1,5 @@
-*Effective: January 01, 2022*  
-*Last updated: November 02, 2025*
+*Effective: January 01, 2022*<br>
+*Last updated: July 13, 2026*
 
 This Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your information when You use the Service and tells You about Your privacy rights and how the law protects You. We use Your Personal data to provide and improve the Service. By using the Service, You agree to the collection and use of information in accordance with this Privacy Policy.
 
@@ -12,7 +12,6 @@ The words of which the initial letter is capitalized have meanings defined under
 For the purposes of this Privacy Policy:
 
 - **Account** means a unique account created for You to access our Service or parts of our Service.
-- **Affiliate** means an entity that controls, is controlled by, or is under common control with a party, where "control" means ownership of 50% or more of the shares, equity interest, or other securities entitled to vote for the election of directors or other managing authority.
 - **Application** means the software program provided by the Company downloaded by You on any electronic device, named ClashWiseAI.
 - **Company (referred to as either "the Company", "We", "Us" or "Our" in this Agreement)** refers to IssueLab Limited, 21 Lakewood Drive, Tunbridge Wells, TN2 3FH.
 - **Cookies** are small files that are placed on Your computer, mobile device, or any other device by a website, containing the details of Your browsing history on that website among its many uses.
@@ -59,7 +58,7 @@ We use Cookies and similar tracking technologies to track the activity on Our Se
   
   This data helps us improve our email communications, ensure they reach You successfully, and understand which content is most relevant to our users. You may be able to disable email tracking by adjusting your email client settings or by contacting us to opt out of tracked emails.
 
-Cookies can be "Persistent" or "Session" Cookies. Persistent Cookies remain on Your personal computer or mobile device when You go offline, while Session Cookies are deleted as soon as You close Your web browser. [Learn more about cookies](link-to-more-info): Cookies by PrivacyPolicies Generator.
+Cookies can be "Persistent" or "Session" Cookies. Persistent Cookies remain on Your personal computer or mobile device when You go offline, while Session Cookies are deleted as soon as You close Your web browser. For the specific cookies We set and how to change Your choices, see Our [Cookie Policy](https://clashwise.ai/cookie-policy).
 
 We use both Session and Persistent Cookies for the purposes set out below:
 
@@ -78,7 +77,14 @@ We use both Session and Persistent Cookies for the purposes set out below:
   - *Administered by*: Us
   - *Purpose*: These Cookies allow us to remember choices You make when You use the Website, such as remembering your login details or language preference. The purpose of these Cookies is to provide You with a more personal experience and to avoid You having to re-enter your preferences every time You use the Website.
 
-For more information about the cookies we use and your choices regarding cookies, please visit our [Cookies Policy](link-to-cookies-policy) or the Cookies section of our [Privacy Policy](link-to-privacy-policy).
+- **Analytics Cookies**
+  - *Type*: Persistent Cookies
+  - *Administered by*: Third parties (Google Analytics, Microsoft Clarity) — the only two analytics tools We use
+  - *Purpose*: These Cookies collect website usage data (such as page views and interaction data) so We can understand how the public marketing site is used. **They do not load until You accept analytics cookies.** When You first visit the site You are asked to accept or decline; if You decline, or simply ignore the banner, Google Analytics and Microsoft Clarity are never loaded. You can change Your choice at any time from the Cookie Policy page.
+
+Where analytics is enabled by Your consent, it runs across Our website, including pages inside the signed-in product; We record the page address visited and interaction data.
+
+For more information about the cookies We use and Your choices regarding them, please see Our [Cookie Policy](https://clashwise.ai/cookie-policy) or the Cookies section of this Privacy Policy.
 
 ## Use of Your Personal Data
 
@@ -95,12 +101,47 @@ The Company may use Personal Data for the following purposes:
 
 We may share Your personal information in the following situations:
 
-- **With Service Providers**: We may share Your personal information with Service Providers to monitor and analyze the use of our Service, to contact You.
+- **With Service Providers**: We may share Your personal information with Service Providers to monitor and analyze the use of our Service, to contact You, and to provide the AI features described below. See "Service Providers We Use" for the specific list of providers We use today.
 - **For business transfers**: We may share or transfer Your personal information in connection with, or during negotiations of, any merger, sale of Company assets, financing, or acquisition of all or a portion of Our business to another company.
-- **With Affiliates**: We may share Your information with Our affiliates, in which case we will require those affiliates to honor this Privacy Policy. Affiliates include Our parent company and any other subsidiaries, joint venture partners or other companies that We control or that are under common control with Us.
-- **With business partners**: We may share Your information with Our business partners to offer You certain products, services or promotions.
-- **With other users**: when You share personal information or otherwise interact in the public areas with other users, such information may be viewed by all users and may be publicly distributed outside.
+- **With people You share content with**: Where You share a clash set using a share link, the content of that clash set — including any personal information contained within it — is visible to anyone who opens the link and enters the password, if You set one. You control whether to create a share link and can revoke it.
 - **With Your consent**: We may disclose Your personal information for any other purpose with Your consent.
+
+### Service Providers We Use
+
+The Service Providers below process Personal Data on Our behalf so that We can provide the Service. This list reflects the third parties We actually use today. If We add, remove, or replace a Service Provider in a way that materially changes how Your Personal Data is processed, We will publish the change on Our [Subprocessors page](https://clashwise.ai/subprocessors) and email the account owner of each affected organisation, in each case before the change takes effect.
+
+| Service Provider | Purpose | Location |
+|---|---|---|
+| Microsoft Azure OpenAI | Powers Our AI features — clash naming, the "Wise" chat assistant, and AI summaries | Sweden (EU) |
+| Azure Communication Services | Sends transactional and inbound email (password reset, notifications, support replies) — the only email provider We use | United Kingdom |
+| Azure Cosmos DB | Our primary application database | United Kingdom |
+| Azure Storage | Stores images, exported files, and background job data | United Kingdom |
+| Stripe | Processes billing and payments for most subscriptions; We do not store Your card number | United States |
+| PayPal | Processes billing for a legacy subscription path for customers who purchased via the Autodesk App Store | United States |
+| Autodesk | Verifies plugin feature entitlements linked to Your Autodesk account | United States |
+| Google Analytics and Microsoft Clarity | Provide website usage analytics — the only two analytics tools We use. Neither loads unless You accept analytics cookies; where You do, they run across the website, including signed-in pages | United States |
+| Hetzner | Hosts the Service (the servers running Our application) | Germany (EU) |
+
+See the "International Data Transfers (UK GDPR)" section below for more on where Your data is processed.
+
+### AI Features ("Wise")
+
+The Service includes AI-assisted features, branded "Wise" — for example automatic clash naming, an AI chat assistant, and AI-generated summaries. When You use these features:
+
+- Clash data (such as titles and descriptions), Your chat prompts, and any images You submit (for example, about a viewpoint) are sent to Our AI Service Provider, Microsoft Azure OpenAI, for processing. This processing takes place in Sweden (EU).
+- Wise chat history (Your prompts, the AI's responses, and related conversation context) is retained for 12 months from Your last activity in that conversation. You can delete any conversation sooner from within the product.
+- We separately record AI usage metering data — the number of tokens used and an estimated cost — so that We and You can track AI usage against Your plan. This metering data does not include the content of Your prompts or the AI's responses.
+
+### Our Role: Controller and Processor
+
+ClashWise is used by organisations to coordinate construction projects, so two different kinds of Personal Data flow through it, and Our legal role differs for each:
+
+- **We are the "controller"** of the data We hold about You as a user of the Service: Your account details (name, email), Your billing information, Your usage of the Service, and Our security and audit records. This Privacy Policy describes how We handle that data, and it is Us You contact about it.
+- **We are a "processor"** of the project content Your organisation puts into the Service — clash sets, clash data, coordination sessions, comments, attachments and the like. That content can contain Personal Data about other people (for example, the name or email of a person recorded as responsible for resolving a clash). Your organisation, as Our customer, is the **controller** of that content and decides why and how it is processed; We process it on that organisation's documented instructions.
+
+If You are an individual whose Personal Data appears inside a customer's project content and You want to exercise Your data protection rights over it, please contact that organisation. If You contact Us instead, We will help You reach the right controller and will assist that organisation in responding.
+
+Business customers who require a Data Processing Agreement (DPA) under Article 28 UK GDPR can request one from Us at support@clashwise.ai.
 
 ### Legal Basis for Processing Personal Data (UK GDPR)
 
@@ -123,13 +164,34 @@ Under UK data protection laws, You have the following rights:
 - **Right to Data Portability**: You have the right to request that We transfer the data that We have collected to another organization, or directly to You, under certain conditions.
 - **Right to Withdraw Consent**: Where We rely on Your consent to process Your Personal Data, You have the right to withdraw that consent at any time. This includes the right to opt out of email tracking and marketing communications.
 
-To exercise any of these rights, please contact us at tech@clashwise.ai. We will respond to Your request within one month. Please note that we may need to verify Your identity before processing Your request.
+**Self-service export.** You can export a machine-readable copy of the Personal Data We hold about You and Your Account's content directly from Your profile in the product — covering account data, clash sets, clashes, matrices, conversations, sessions and activity. This is rate-limited to protect against abuse. Using this tool is the fastest way to exercise Your Right of Access or Right to Data Portability; You do not need to contact Us first, though You are welcome to.
+
+To exercise any of these rights, please contact us at support@clashwise.ai. We will respond to Your request within one month. Please note that we may need to verify Your identity before processing Your request.
 
 ### Retention of Your Personal Data
 
 The Company will retain Your Personal Data only for as long as is necessary for the purposes set out in this Privacy Policy. We will retain and use Your Personal Data to the extent necessary to comply with our legal obligations (for example, if we are required to retain your data to comply with applicable laws), resolve disputes, and enforce our legal agreements and policies.
 
 The Company will also retain Usage Data for internal analysis purposes. Usage Data is generally retained for a shorter period of time, except when this data is used to strengthen the security or to improve the functionality of Our Service, or We are legally obligated to retain this data for longer time periods.
+
+**Specific retention windows.** Where We can commit to a specific period, it is:
+
+- **Account, project and clash data**: retained for the life of Your Account. If You delete Your Account, see "Account Deletion" below.
+- **Wise AI chat history**: 12 months from Your last activity in that conversation (You can delete a conversation sooner from within the product).
+- **AI usage metering** (token counts and estimated cost — no prompt or output content): raw events are kept for 400 days; aggregate monthly totals are not time-limited.
+- **Admin audit log** (logins, impersonation, and permission/billing changes): 7 years, retained on legitimate-interest and legal grounds — including after Account deletion, so that a record of what happened cannot be erased by closing an Account.
+- **Diagnostic error logs**: 90 days.
+- **User-activity diagnostics** (which include IP address and user agent): 180 days.
+
+### Account Deletion
+
+You can request deletion of Your Account at any time from within the product. When You do:
+
+- Your Account is **deactivated immediately** — You are logged out and the Account stops working.
+- Your data is kept for a **30-day recovery window** so an accidental or malicious deletion request can be reversed.
+- After that window, a background process **permanently and irreversibly purges** Your Account and everything it owns — clash sets and clashes, element properties, matrices, filters, groups, coordination sessions, conversations, API credentials, email and consent records, activity, and subscriptions — along with associated files (viewpoint images, 3D extracts, exports).
+
+Two things are deliberately kept even after Your Account is purged: the admin audit log (see above) and aggregate AI-usage totals that no longer identify You.
 
 ### Transfer of Your Personal Data
 
@@ -148,6 +210,17 @@ If We transfer Your Personal Data outside of the United Kingdom, We will ensure 
 - Transferring data to organizations that are part of Privacy Shield or other approved certification schemes.
 
 Where We use Service Providers that process Personal Data outside of the UK, We ensure that appropriate safeguards are in place before any transfer occurs.
+
+**Where Your data is processed today.**
+
+- **United Kingdom** — Our primary database (Azure Cosmos DB), file storage (Azure Storage), and email service (Azure Communication Services).
+- **Sweden (EU)** — Our AI processing (Azure OpenAI).
+- **Germany (EU)** — Application hosting (Hetzner).
+- **United States** — Billing (Stripe, PayPal), Autodesk entitlement checks, and analytics (Google, Microsoft), where You have consented to analytics.
+
+If You are in the EEA, note that the United Kingdom is outside the EEA. Transfers of Personal Data from the EEA to the UK are covered by the European Commission's **adequacy decision** for the UK, which recognises the UK as providing an equivalent level of data protection. For transfers to the United States, We rely on the transfer mechanisms described above.
+
+We do not claim that all Personal Data is EU-resident, and We will keep this section accurate if Our infrastructure changes.
 
 ### Disclosure of Your Personal Data
 
@@ -194,5 +267,5 @@ We would, however, appreciate the opportunity to address Your concerns before Yo
 
 ### Contact Us
 If you have any questions about this Privacy Policy, You can contact us:
-- **By email**: [tech@clashwise.ai](mailto:tech@clashwise.ai)
+- **By email**: [support@clashwise.ai](mailto:support@clashwise.ai)
 
