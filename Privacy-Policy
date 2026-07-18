@@ -1,5 +1,5 @@
 *Effective: January 01, 2022*<br>
-*Last updated: July 13, 2026*
+*Last updated: July 18, 2026*
 
 This Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your information when You use the Service and tells You about Your privacy rights and how the law protects You. We use Your Personal data to provide and improve the Service. By using the Service, You agree to the collection and use of information in accordance with this Privacy Policy.
 
@@ -104,6 +104,7 @@ We may share Your personal information in the following situations:
 - **With Service Providers**: We may share Your personal information with Service Providers to monitor and analyze the use of our Service, to contact You, and to provide the AI features described below. See "Service Providers We Use" for the specific list of providers We use today.
 - **For business transfers**: We may share or transfer Your personal information in connection with, or during negotiations of, any merger, sale of Company assets, financing, or acquisition of all or a portion of Our business to another company.
 - **With people You share content with**: Where You share a clash set using a share link, the content of that clash set — including any personal information contained within it — is visible to anyone who opens the link and enters the password, if You set one. You control whether to create a share link and can revoke it.
+- **With applications You connect**: Where You connect a third-party application to the Service — for example an AI client connected through Our Model Context Protocol (MCP) support — that application can retrieve, and where explicitly granted and confirmed, modify the data Your granted capabilities allow, including any personal information contained within it. This happens only at Your direction: MCP access is off until Your organisation's administrator enables it, each member's capabilities are granted individually, and You can revoke a connection at any time from Connected apps in the Service. What a connected application does with data it retrieves is governed by that vendor's own terms and privacy policy, not this one. See "Connected Applications (MCP)" below.
 - **With Your consent**: We may disclose Your personal information for any other purpose with Your consent.
 
 ### Service Providers We Use
@@ -131,6 +132,14 @@ The Service includes AI-assisted features, branded "Wise" — for example automa
 - Clash data (such as titles and descriptions), Your chat prompts, and any images You submit (for example, about a viewpoint) are sent to Our AI Service Provider, Microsoft Azure OpenAI, for processing. This processing takes place in Sweden (EU).
 - Wise chat history (Your prompts, the AI's responses, and related conversation context) is retained for 12 months from Your last activity in that conversation. You can delete any conversation sooner from within the product.
 - We separately record AI usage metering data — the number of tokens used and an estimated cost — so that We and You can track AI usage against Your plan. This metering data does not include the content of Your prompts or the AI's responses.
+
+### Connected Applications (MCP)
+
+You can connect third-party AI clients to the Service through Our Model Context Protocol (MCP) support. When You do:
+
+- We store a record of each connection: the client's name and identifier, the capabilities granted, connection and revocation timestamps, and a hashed credential used to keep the connection signed in. This record is visible to You under Connected apps in the Service.
+- Every tool call a connected client makes is recorded — the tool used, the outcome, the acting user and organisation, and the client's name — and is visible to You (and, for organisation activity, to Your organisation's administrators) in the Service. Tool-call records are retained as part of the user-activity diagnostics and the admin audit log described under "Retention of Your Personal Data" below.
+- Connected clients are chosen and instructed by You. They are not Our Service Providers, and what they do with data they retrieve is governed by that vendor's own terms and privacy policy.
 
 ### Our Role: Controller and Processor
 
@@ -179,7 +188,7 @@ The Company will also retain Usage Data for internal analysis purposes. Usage Da
 - **Account, project and clash data**: retained for the life of Your Account. If You delete Your Account, see "Account Deletion" below.
 - **Wise AI chat history**: 12 months from Your last activity in that conversation (You can delete a conversation sooner from within the product).
 - **AI usage metering** (token counts and estimated cost — no prompt or output content): raw events are kept for 400 days; aggregate monthly totals are not time-limited.
-- **Admin audit log** (logins, impersonation, and permission/billing changes): 7 years, retained on legitimate-interest and legal grounds — including after Account deletion, so that a record of what happened cannot be erased by closing an Account.
+- **Admin audit log** (logins, impersonation, permission/billing changes, and tool calls from AI features and connected applications): 7 years, retained on legitimate-interest and legal grounds — including after Account deletion, so that a record of what happened cannot be erased by closing an Account.
 - **Diagnostic error logs**: 90 days.
 - **User-activity diagnostics** (which include IP address and user agent): 180 days.
 

@@ -1,5 +1,5 @@
 *Effective: January 01, 2022*<br>
-*Last updated: July 13, 2026*
+*Last updated: July 18, 2026*
 
 Please read these terms and conditions carefully before using Our Service.
 
@@ -110,6 +110,14 @@ The Service manages, coordinates and analyses clash data that has been detected 
 The Service includes AI-assisted features, branded "Wise" (for example, automatic clash naming, an AI chat assistant, and AI-generated summaries), which are provided using a third-party AI service provider. Data You submit to these features — including clash data, chat prompts, and any images You submit — is processed as described in Our Privacy Policy.
 
 **AI output is a suggestion, not professional advice.** AI-generated content — including suggested clash titles, priorities, statuses, responsible parties and summaries — may be incomplete, inaccurate or unsuitable for Your project. It is not engineering, design, safety or professional advice, and it is not a substitute for the judgment of a qualified professional. You remain solely responsible for reviewing and verifying any AI-assisted suggestion before acting on it, and for any decision You take on a construction project.
+
+### Connected Applications (MCP)
+
+The Service allows You — and, for organisations, your organisation's administrators — to connect third-party applications to Your data in the Service, for example AI clients that support the Model Context Protocol ("MCP"). Connections are subject to the access controls built into the Service: an organisation administrator must enable MCP access, each member may only use the capabilities granted to them, and certain changes require an explicit confirmation from the connected application before they are applied.
+
+You are responsible for the third-party applications You choose to connect, including reviewing their terms and privacy practices before connecting them. The Company has no control over, and assumes no responsibility for, how a connected application uses data it retrieves at Your direction. You must not use a connected application to circumvent the Service's access controls, capability grants, or usage limits. You can revoke a connection at any time from Connected apps within the Service, and the Company may suspend or revoke connections that present a security risk or breach these Terms.
+
+Output You receive through a connected application — including output produced by that application's own AI — is subject to the same disclaimer as other AI-assisted features: it is a suggestion, not professional advice, and You remain solely responsible for reviewing and verifying it before acting on it.
 
 ### Your Feedback to Us
 
